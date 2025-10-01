@@ -75,7 +75,6 @@ public class NumberTriangle {
                 current.get(j).setRight(next.get(j + 1));
             }
         }
-
         return levels.get(0).get(0); // root
     }
 
